@@ -1,0 +1,18 @@
+{
+  "name": "reel-review-runner",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Runs your app's flows and screens for the Reel Review Claude Code mod.",
+  "scripts": {
+    "reels": "node reel.mjs run"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "pixelmatch": "^5.3.0",
+    "playwright": "^1.58.2",
+    "pngjs": "^7.0.0"
+  }
+}

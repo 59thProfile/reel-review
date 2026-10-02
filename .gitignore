@@ -1,0 +1,4 @@
+node_modules/
+**/.reels/*
+!**/.reels/baseline/
+.DS_Store

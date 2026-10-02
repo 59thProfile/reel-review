@@ -1,0 +1,25 @@
+{
+  "name": "reel-review",
+  "version": "0.1.0",
+  "description": "Tests your app after every commit and lets you swipe the results: send a failure to Claude or approve a change.",
+  "author": {
+    "name": "59thProfile",
+    "url": "https://github.com/59thProfile"
+  },
+  "homepage": "https://github.com/59thProfile/reel-review",
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "pipelineDir": {
+      "type": "string",
+      "title": "Reel runner folder",
+      "description": "Absolute path of the runner folder (the one holding reel.mjs and reels.config.mjs).",
+      "default": ""
+    },
+    "runOnCommit": {
+      "type": "boolean",
+      "title": "Re-run after each git commit",
+      "description": "Re-run the reels whenever a git commit made in this session succeeds.",
+      "default": true
+    }
+  }
+}
